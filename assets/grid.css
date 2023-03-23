@@ -6,17 +6,21 @@ body {
   line-height: 23px;
   color: #ffffff;
 }
+
 main {
   margin-bottom: 120px;
 }
+
 img {
   display: block;
   width: 100%;
 }
+
 .container {
   max-width: 1170px;
   margin: 0 auto;
 }
+
 .container-bottom {
  padding-bottom: 120px;
 }
@@ -33,6 +37,7 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
 .title {
   font-family: 'Delius Unicase';
   font-style: normal;
@@ -45,18 +50,21 @@ img {
   margin-top: 120px;
   margin-bottom: 60px;
 }
+
 .author {
-  font-family: ‘Roboto’;
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 23px;
   color: #ffffff;
 }
+
 .date {
   font-weight: 400;
   color: #e0e0e0;
 }
+
 .grid__item {
   border-radius: 20px;
   padding: 20px;
@@ -69,10 +77,12 @@ img {
   background-size: 100% 100%;
   transition: all 350ms ease;
 }
+
 .grid__item:hover {
   transform: scale(1.05);
   cursor: pointer;
 }
+
 /* ---------architecture--------- */
 .grid__container1 {
   display: grid;
@@ -80,6 +90,7 @@ img {
   grid-gap: 30px;
   grid-auto-rows: 370px;
 }
+
 .architecture__block-1 {
   grid-area: 1 / 1 / 2 / 2;
   background: linear-gradient(
@@ -90,6 +101,7 @@ img {
     ),
     url(../images/photos/architecture-1.png);
 }
+
 .architecture__block-2 {
   grid-area: 1 / 2 / 2 / 4;
   background: linear-gradient(
@@ -100,6 +112,7 @@ img {
     ),
     url(../images/photos/architecture-2.png);
 }
+
 .architecture__block-3 {
   grid-area: 2 / 1 / 3 / 3;
   background: linear-gradient(
@@ -110,6 +123,7 @@ img {
     ),
     url(../images/photos/architecture-3.png);
 }
+
 .architecture__block-4 {
   grid-area: 2 / 3 / 3 / 4;
   background: linear-gradient(
@@ -120,6 +134,7 @@ img {
     ),
     url(../images/photos/architecture-4.png);
 }
+
 .architecture__block-5 {
   grid-area: 3 / 1 / 4 / 2;
   background: linear-gradient(
@@ -130,6 +145,7 @@ img {
     ),
     url(../images/photos/architecture-5.png);
 }
+
 .architecture__block-6 {
   grid-area: 3 / 2 / 4 / 4;
   background: linear-gradient(
@@ -141,24 +157,31 @@ img {
     url(../images/photos/architecture-6.png);
 }
 
+
 .architecture__block-1:hover {
   background: url(../images/photos/architecture-1.png);
 }
+
 .architecture__block-2:hover {
   background: url(../images/photos/architecture-2.png);
 }
+
 .architecture__block-3:hover {
   background: url(../images/photos/architecture-3.png);
 }
+
 .architecture__block-4:hover {
   background: url(../images/photos/architecture-4.png);
 }
+
 .architecture__block-5:hover {
   background: url(../images/photos/architecture-5.png);
 }
+
 .architecture__block-6:hover {
   background: url(../images/photos/architecture-6.png);
 }
+
 /* --------------still-life------------ */
 .grid__container2 {
   display: grid;
@@ -167,6 +190,7 @@ img {
   grid-gap: 30px;
   grid-auto-rows: 370px;
 }
+
 .still-life__block-1 {
   grid-area: 1 / 1 / 2 / 2;
   background: linear-gradient(
@@ -177,6 +201,7 @@ img {
     ),
     url(..//images/photos/still-life-1.png);
 }
+
 .still-life__block-2 {
   grid-area: 1 / 2 / 2 / 4; 
   background: linear-gradient(
@@ -187,6 +212,7 @@ img {
     ),
     url(..//images/photos/still-life-2.png);
 }
+
 .still-life__block-3 {
   grid-area: 2 / 1 / 4 / 3;
   background: linear-gradient(
@@ -198,6 +224,7 @@ img {
     url(..//images/photos/still-life-3.png);
 }
 
+
 .still-life__block-4 {
   grid-area: 2 / 3 / 4 / 4; 
   background: linear-gradient(
@@ -208,6 +235,7 @@ img {
     ),
     url(..//images/photos/still-life-4.png);
 }
+
 .still-life__block-5 {
   grid-area: 4 / 1 / 5 / 3; 
   background: linear-gradient(
@@ -218,6 +246,7 @@ img {
     ),
     url(..//images/photos/still-life-5.png);
 }
+
 .still-life__block-6 {
   grid-area: 4 / 3 / 5 / 4;
   background: linear-gradient(
@@ -228,24 +257,31 @@ img {
     ),
     url(..//images/photos/still-life-6.png);
 }
+
 .still-life__block-1:hover {
   background: url(..//images/photos/still-life-1.png);
 }
+
 .still-life__block-2:hover {
   background: url(..//images/photos/still-life-2.png);
 }
+
 .still-life__block-3:hover {
   background: url(..//images/photos/still-life-3.png);
 }
+
 .still-life__block-4:hover {
   background: url(..//images/photos/still-life-4.png);
 }
+
 .still-life__block-5:hover {
   background: url(..//images/photos/still-life-5.png);
 }
+
 .still-life__block-6:hover {
   background: url(..//images/photos/still-life-6.png);
 }
+
 /* ---------Portrait------------- */
 .grid__container3 {
   display: grid;
@@ -254,6 +290,7 @@ img {
   grid-gap: 30px;
   grid-auto-rows: 370px;
 }
+
 .portrait__block-1 {
   grid-area: 1 / 1 / 2 / 2;
   background: linear-gradient(
@@ -264,6 +301,7 @@ img {
     ),
     url(..//images/photos/portrait-1.png);
 }
+
 .portrait__block-2 {
   grid-area: 1 / 2 / 3 / 3;
   background: linear-gradient(
@@ -274,6 +312,7 @@ img {
     ),
     url(..//images/photos/portrait-2.png);
 }
+
 .portrait__block-3 {
   grid-area: 1 / 3 / 2 / 4;
   background: linear-gradient(
@@ -284,6 +323,7 @@ img {
     ),
     url(..//images/photos/portrait-3.png);
 }
+
 .portrait__block-4 {
   grid-area: 2 / 1 / 3 / 2; 
   background: linear-gradient(
@@ -294,6 +334,7 @@ img {
     ),
     url(..//images/photos/portrait-4.png);
 }
+
 .portrait__block-5 {
   grid-area: 2 / 3 / 4 / 4;
   background: linear-gradient(
@@ -304,6 +345,7 @@ img {
     ),
     url(..//images/photos/portrait-5.png);
 }
+
 .portrait__block-6 {
   grid-area: 3 / 1 / 5 / 2;
   background: linear-gradient(
@@ -314,6 +356,7 @@ img {
     ),
     url(..//images/photos/portrait-6.png);
 }
+
 .portrait__block-7 {
   grid-area: 3 / 2 / 4 / 3;
   background: linear-gradient(
@@ -324,6 +367,7 @@ img {
     ),
     url(..//images/photos/portrait-7.png);
 }
+
 .portrait__block-8 {
   grid-area: 4 / 2 / 5 / 4; 
   background: linear-gradient(
@@ -334,6 +378,7 @@ img {
     ),
     url(..//images/photos/portrait-8.png);
 }
+
 .portrait__block-9 {
   grid-area: 5 / 1 / 6 / 3; 
   background: linear-gradient(
@@ -344,6 +389,7 @@ img {
     ),
     url(..//images/photos/portrait-9.png);
 }
+
 .portrait__block-10 {
   grid-area: 5 / 3 / 6 / 4;
   background: linear-gradient(
@@ -354,34 +400,43 @@ img {
     ),
     url(..//images/photos/portrait-10.png);
 }
-.........................................................
+
 .portrait__block-1:hover {
-  background: url(..//images/photos/portrait-1.png));
+  background: url(..//images/photos/portrait-1.png);
 }
+
 .portrait__block-2:hover {
   background: url(..//images/photos/portrait-2.png);
 }
+
 .portrait__block-3:hover {
   background: url(..//images/photos/portrait-3.png);
 }
+
 .portrait__block-4:hover {
   background: url(..//images/photos/portrait-4.png);
 }
+
 .portrait__block-5:hover {
   background: url(..//images/photos/portrait-5.png);
 }
+
 .portrait__block-6:hover {
   background: url(..//images/photos/portrait-6.png);
 }
+
 .portrait__block-7:hover {
   background: url(..//images/photos/portrait-7.png);
 }
+
 .portrait__block-8:hover {
   background: url(..//images/photos/portrait-8.png);
 }
+
 .portrait__block-9:hover {
   background: url(..//images/photos/portrait-9.png);
 }
+
 .portrait__block-10:hover {
   background: url(..//images/photos/portrait-10.png);
 }
